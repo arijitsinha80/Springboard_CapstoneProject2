@@ -52,6 +52,6 @@ Model created for Logistics Regression with Count Vectors, Logistics Regression 
 ![fig16tablescore](/Images/fig16tablescore.png)
 
 Logistic Regression with Count vector has highest AUC-ROC score of 95%.
-
+![fig17roc](/Images/fig17roc.png)
 
 
