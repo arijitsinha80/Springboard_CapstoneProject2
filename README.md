@@ -26,11 +26,19 @@ Data Preprocessing, performing for the text – attribute
 
 Created and plotted the distribution of the sentiments score, it has close to normal distribution, as it seems, it has both positive and negative sentiments almost equally.
 
+![fig9_sentimentsdis](/Images/fig9_sentimentsdis.png)
+
 Correlation matrix, describing the relation between the attributes, the values of the correlation are between -1 and 1, showing positive and negative correlation. There is not strong correlation between any attributes, but there is a negative correlation of -0.12 between length and label.
+
+![fig11cor](/Images/fig11cor.png)
 
 WordCloud from Train Dataset, creating the word cloud of 50 most common words are “Obama”, followed by “Clinton” and “American”.
 
+![fig12wc](/Images/fig12wc.png)
+
 Creating the n-Gram plots for Unigram, Bigram and Trigram, in the unigram, the most common words after stopword and updating stopword, are “trump”, “will” and “one”. In the Bigram, we can see “united states” and “donald trump” and “new york”. In the trigram, we can see the common words are “new york times”, “president Donald trump ” and “new york city”.
+
+![fig14ngwo](/Images/fig14ngwo.png)
 
 T-Statistics helps explain if the means from two samples are different from each other, by calculating the stand error in difference between two means. 
 **Null Hypothesis** – Both of the sample are same and equal, there is no difference in their sentiments analysis.
@@ -41,7 +49,9 @@ The t-distribution left quartile range is: -1.9600793684470008. The t-distributi
 * Comparing the p-value to alpha, reject the null hypothesis that the means are equal. 
 
 Model created for Logistics Regression with Count Vectors, Logistics Regression with TF-IDF Vectors, Multinomial Naïve Bayes classifier with Count Vectors with hyper parameter and Multinomial Naïve Bayes classifier with TF-IDF Vectors with hyper parameter, LSTM (long short term memory) neural network.
+![fig16tablescore](/Images/fig16tablescore.png)
 
 Logistic Regression with Count vector has highest AUC-ROC score of 95%.
+![fig17roc](/Images/fig17roc.png)
 
 
